@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:contentDescription="@null"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/main_center_fire" />
         </FrameLayout>
     </LinearLayout>
 </RelativeLayout>

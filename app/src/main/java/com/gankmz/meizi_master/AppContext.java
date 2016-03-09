@@ -19,13 +19,11 @@ public class AppContext extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-
         //设置数据库相关
         sContext=this;
         DB_liteOrm=LiteOrm.newSingleInstance(sContext,DB_NAME);
         if (BuildConfig.DEBUG) {
             DB_liteOrm.setDebugged(true);
         }
-
     }
 }

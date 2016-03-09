@@ -12,12 +12,12 @@ import com.gankmz.meizi_master.R;
 public class MineFragment extends BaseLazyFragment{
     @Override
     protected void onFirstUserVisible() {
-        Log.d("TAG","start");
+        Log.d("TAG","mine 第一次可见");
     }
 
     @Override
     protected void onUserVisible() {
-
+        Log.d("TAG","mine onresume");
     }
 
     @Override

@@ -12,19 +12,18 @@ import com.gankmz.meizi_master.R;
 public class HomeFragment extends BaseLazyFragment{
     @Override
     protected void onFirstUserVisible() {
-        Log.d("TAG","start");
+        Log.d("TAG","home 第一次见");
     }
 
     @Override
     protected void onUserVisible() {
-
+        Log.d("TAG","home  onresume");
     }
 
     @Override
     protected void onUserInvisible() {
 
     }
-
     @Override
     protected void initViewsAndEvents() {
 

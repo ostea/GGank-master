@@ -39,10 +39,21 @@ public abstract class BaseLazyFragment extends Fragment{
      */
     protected Context mContext = null;
 
+    /**
+     * 第一次可见
+     * **/
     private boolean isFirstResume = true;
+
+    /**
+     *
+     * **/
     private boolean isFirstVisible = true;
     private boolean isFirstInvisible = true;
-    private boolean isPrepared;
+
+    /**
+     * 所有的VIew是否准备号
+     * */
+    private boolean isPrepared=true;
 
 
     @Override
@@ -158,8 +169,7 @@ public abstract class BaseLazyFragment extends Fragment{
     private synchronized void initPrepare() {
         if (isPrepared) {
             onFirstUserVisible();
-        } else {
-            isPrepared = true;
+            isPrepared=false;
         }
     }
 
