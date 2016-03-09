@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gank妹子</string>
+
+    <string name="main_tab_name_home">首页</string>
+    <string name="main_tab_name_quick">快速</string>
+    <string name="main_tab_name_me">我的</string>
+    <array name="home_category">
+        <item >Android</item>
+        <item >休息视频</item>
+        <item >iOS</item>
+        <item >福利</item>
+        <item >拓展资源</item>
+        <item >瞎推荐</item>
+    </array>
+</resources>
